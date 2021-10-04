@@ -15,7 +15,7 @@ var userTickets = new Map();
 
 client.login(config.token);
 
-client.on('ready', () => {
+client.on('ready', () => 
     console.log(client.user.username + " has logged in.");
 });
 
